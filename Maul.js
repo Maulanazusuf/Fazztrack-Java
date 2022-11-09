@@ -1,9 +1,5 @@
-console.log("Hello Maulana Disini")
-console.log("Tugas Java 1")
-
-let m = 1,2,3,4,5;
-
-while (m < 15) {
-    console.log(m);
-    m += 1
-}
+let nomorx = [1,2,3,4,5]
+let totalx =''
+for(i = 0; i <nomorx.length; i++){
+    totalx += nomorx[i];
+ }
